@@ -2,7 +2,7 @@
 
 Welcome to the **Rock Paper Scissors Lizard Spock** game! This interactive web-based game offers a fun twist on the classic Rock, Paper, Scissors game by adding Lizard and Spock to the mix. Play against the computer or challenge a friend, and see who comes out on top! The game is fully responsive and designed to be enjoyed on both mobile and desktop devices.
 
-[**Deployment Link**]
+[**Deployment Link**](https://pauld95-git.github.io/RPSLS/)
 
 ---
 
@@ -65,7 +65,7 @@ The **Rules** button opens a modal or a separate section that explains how the g
 
 ### 8. **Mobile Responsive Design**
 - The website layout and game controls adjust to various screen sizes, ensuring a smooth and enjoyable experience on both mobile devices and desktops.
-![Alt text](URL_or_path_to_image)
+![Responsive Design](./assets/images/responsive.JPG)
 
 ---
 
@@ -117,7 +117,7 @@ This website has been deployed to **GitHub Pages**. Here are the steps for deplo
 2. Go to the repository's **Settings**.
 3. Under the **Pages** section, select the branch to deploy from (usually `main` or `master`).
 4. The site will be available at the provided GitHub Pages URL.
-5. The live game can be accessed [here].
+5. The live game can be accessed [here](https://pauld95-git.github.io/RPSLS/).
 
 ---
 
