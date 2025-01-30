@@ -45,3 +45,27 @@
         <button id="rulesButton">Rules</button> <!-- Button to display game rules -->
         <button id="historyButton">History</button> <!-- Button to view game history -->
     </div>
+
+     <!-- Modal for Rules -->
+     <div id="rulesModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close-button">&times;</span> <!-- Close button for modal -->
+            <img src="rules.webp" alt="Game Rules" id="rulesImage"> <!-- Image displaying game rules -->
+        </div>
+    </div>
+
+    <!-- Modal for History -->
+    <div id="historyModal" class="modal">
+        <div class="modal-content">
+            <span id="closeHistoryModal" class="close-button">&times;</span> <!-- Close button for history modal -->
+            <h2>Game History</h2>
+            <ul id="historyList">
+                <!-- Game history will be dynamically displayed here -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
