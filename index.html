@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors Lizard Spock</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-</body>
-</html>
+    <!-- Main Game Title -->
+    <h1>Rock Paper Scissors Lizard Spock</h1>
+
+    <!-- Result Display Area -->
+    <div id="result" class="result-display">Let's Play!</div>
+
+    <div id="container">
+        <!-- Screen Display for Player and Computer -->
+        <div id="screenDisplay">
+            <!-- Player's Screen -->
+            <div class="screen">
+                <div id="playerScore" class="score">Player: 0</div>
+                <div id="playerDisplay" class="choice-display">🤔</div> <!-- Player's current choice -->
+            </div>
+            
+            <!-- Computer's Screen -->
+            <div class="screen">
+                <div id="computerScore" class="score">Computer: 0</div>
+                <div id="computerDisplay" class="choice-display">🤔</div> <!-- Computer's current choice -->
+            </div>
+        </div>
